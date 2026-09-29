@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CYBER PORTFOLIO // SYSTEM ONLINE</title>
+    <!-- サイバー系Googleフォント -->
+    <!-- サイバー系Googleフォント（M PLUS 1p を追加） -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@500;700;800;900&family=Orbitron:wght@600;800;900&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <!-- フォント読み込み：Shippori Mincho（極太800）を採用 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;800;900&family=Share+Tech+Mono&family=Shippori+Mincho:wght@700;800&family=Zen+Kaku+Gothic+New:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="cyber-scanline">
+
+    <!-- 背景のサイバーグリッド -->
+    <div class="cyber-grid"></div>
+
+    <!-- HUDヘッダー -->
+    <header id="header">
+        <div class="header-inner">
+            <a href="#" class="logo">
+                <span class="prefix">SYS_</span>CORE<span class="blink">_</span>
+            </a>
+            <div class="system-status">
+                <span class="status-dot"></span>
+                <span>STATUS: OPTIMAL</span>
+            </div>
+            <nav>
+                <a href="#about" data-scramble="// 01.ABOUT">// 01.ABOUT</a>
+                <a href="#works" data-scramble="// 02.WORKS">// 02.WORKS</a>
+                <a href="#contact" data-scramble="// 03.CONNECT">// 03.CONNECT</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ヒーロー動画エリア -->
+    <div class="hero">
+        <video autoplay muted loop playsinline aria-hidden="true"
+            poster="https://images.pexels.com/videos/3209828/free-video-3209828.jpg?auto=compress&w=1260&h=750&dpr=1">
+            <source src="https://videos.pexels.com/video-files/3209828/3209828-uhd_2560_1440_25fps.mp4" type="video/mp4">
+        </video>
+        
+        <div class="hero-overlay"></div>
+
+        <div class="hero-content">
+            <div class="hud-tag">
+                <span class="bracket">[</span> PROTOCOL: NEURAL_LINK <span class="bracket">]</span>
+            </div>
+            <!-- 暗号解読エフェクトが付くタイトル -->
+            <h1 class="scramble-title" data-value="CREATE NEW WORLD">CREATE NEW WORLD</h1>
+            <p class="sub-lead">
+                <span class="sub">自ら創り育てる</span>
+                <span class="main">新しい世界</span>
+            </p>
+            <div class="hero-meta">
+                <span>LATENCY: 12ms</span>
+                <span>ENV: VIRTUAL_LAYER_07</span>
+            </div>
+        </div>
+
+        <!-- スクロールインジケーター -->
+        <a href="#about" class="cyber-scroll">
+            <span>SCROLL_DOWN</span>
+            <div class="crosshair"></div>
+        </a>
+    </div>
+
+    <main>
+        <!-- 自己紹介 -->
+        <section id="about" class="hud-section fade-in-section">
+            <div class="sec-header">
+                <span class="sec-id">SEC_01 // IDENTIFICATION</span>
+                <h2>自己紹介</h2>
+            </div>
+            
+            <div class="hud-panel">
+                <div class="panel-corner tl"></div>
+                <div class="panel-corner tr"></div>
+                <div class="panel-corner bl"></div>
+                <div class="panel-corner br"></div>
+
+                <div class="about-grid">
+                    <div class="user-id">
+                        <div class="id-badge">VERIFIED HUMAN</div>
+                        <h3 class="user-name">OPERATOR: YOUR NAME</h3>
+                        <p class="role">ROLE: CYBERSPACE ARCHITECT</p>
+                    </div>
+                    <div class="user-bio">
+                        <p>VR・インタラクティブWeb技術を駆使し、サイバースペースと現実の境界を再定義するクリエイター。デジタル領域における次世代の視覚・知覚体験を追求しています。</p>
+                        <div class="spec-list">
+                            <span class="spec-tag">CYBER_UI</span>
+                            <span class="spec-tag">THREE.JS / WEBGL</span>
+                            <span class="spec-tag">VIRTUAL_REALITY</span>
+                            <span class="spec-tag">SHADERS / GLSL</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 作品・活動 -->
+        <section id="works" class="hud-section fade-in-section">
+            <div class="sec-header">
+                <span class="sec-id">SEC_02 // ARTIFACTS</span>
+                <h2>作品・活動</h2>
+            </div>
+
+            <div class="works-grid">
+                <!-- Card 1 -->
+                <article class="cyber-card">
+                    <div class="card-edge"></div>
+                    <div class="work-preview neon-1">
+                        <span class="data-tag">DATA_SET: 001</span>
+                    </div>
+                    <div class="work-body">
+                        <span class="work-cat">NEURAL APPLICATION</span>
+                        <h3 class="work-title">作品その1: NEON DRIVE</h3>
+                        <p>仮想空間における直感的操作を実現したサイバーUIシステム。</p>
+                        <a href="#" class="hud-btn">EXECUTE PROJECT <span>→</span></a>
+                    </div>
+                </article>
+
+                <!-- Card 2 -->
+                <article class="cyber-card">
+                    <div class="card-edge"></div>
+                    <div class="work-preview neon-2">
+                        <span class="data-tag">DATA_SET: 002</span>
+                    </div>
+                    <div class="work-body">
+                        <span class="work-cat">IMMERSIVE VR</span>
+                        <h3 class="work-title">作品その2: QUANTUM VOID</h3>
+                        <p>没入型VRゴーグル向けの高精度リアルタイム空間レンダリング。</p>
+                        <a href="#" class="hud-btn">EXECUTE PROJECT <span>→</span></a>
+                    </div>
+                </article>
+
+                <!-- Card 3 -->
+                <article class="cyber-card">
+                    <div class="card-edge"></div>
+                    <div class="work-preview neon-3">
+                        <span class="data-tag">DATA_SET: 003</span>
+                    </div>
+                    <div class="work-body">
+                        <span class="work-cat">SYSTEM DESIGN</span>
+                        <h3 class="work-title">作品その3: SYNAPSE OS</h3>
+                        <p>次世代デバイスのためのグリッチ耐性HUDインターフェース。</p>
+                        <a href="#" class="hud-btn">EXECUTE PROJECT <span>→</span></a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- 連絡先 -->
+        <section id="contact" class="hud-section fade-in-section">
+            <div class="sec-header">
+                <span class="sec-id">SEC_03 // TRANSMISSION</span>
+                <h2>通信プロトコル</h2>
+            </div>
+
+            <div class="hud-panel transmission-panel">
+                <div class="panel-corner tl"></div>
+                <div class="panel-corner tr"></div>
+                <div class="panel-corner bl"></div>
+                <div class="panel-corner br"></div>
+
+                <p class="trans-desc">通信回線を開放中。周波数を合わせてコンタクトしてください。</p>
+
+                <div class="contact-terminal">
+                    <a href="mailto:example@example.com" class="terminal-item">
+                        <span class="term-proto">MAIL_TO //</span>
+                        <span class="term-addr">example@example.com</span>
+                    </a>
+                    <a href="#" target="_blank" rel="noopener" class="terminal-item">
+                        <span class="term-proto">X_FEED //</span>
+                        <span class="term-addr">@your_account</span>
+                    </a>
+                    <a href="#" target="_blank" rel="noopener" class="terminal-item">
+                        <span class="term-proto">GIT_HUB //</span>
+                        <span class="term-addr">@your_username</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-inner">
+            <p>TERMINAL_ID: 884-AX // © 2026 YOUR NAME. ALL RIGHTS BUFFERED.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
