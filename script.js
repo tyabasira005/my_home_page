@@ -48,15 +48,16 @@ function scrambleText(element) {
     }, 30);
 }
 
-// ヒーロータイトルの初回ロード時解読アニメーション
-window.addEventListener('DOMContentLoaded', () => {
-    const title = document.querySelector('.scramble-title');
-    if (title) scrambleText(title);
-});
 
 // ナビゲーションホバー時にもスクランブルを発火
 document.querySelectorAll('nav a').forEach(navLink => {
     navLink.addEventListener('mouseenter', (e) => {
         scrambleText(e.target);
     });
+});
+
+// ヒーロータイトルの初回ロード時解読アニメーション（2行両方に適用）
+window.addEventListener('DOMContentLoaded', () => {
+    const lines = document.querySelectorAll('.scramble-line');
+    lines.forEach(line => scrambleText(line));
 });
