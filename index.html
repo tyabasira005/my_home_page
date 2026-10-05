@@ -4,17 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>CYBER PORTFOLIO // SYSTEM ONLINE</title>
-    <!-- サイバー系Googleフォント -->
-    <!-- サイバー系Googleフォント（M PLUS 1p を追加） -->
+    
+    <!-- Google Fonts（サイバーHUD用：Orbitron, Share Tech Mono, Zen Kaku Gothic New） -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@500;700;800;900&family=Orbitron:wght@600;800;900&family=Share+Tech+Mono&display=swap" rel="stylesheet">
-    <!-- フォント読み込み：Shippori Mincho（極太800）を採用 -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;800;900&family=Share+Tech+Mono&family=Shippori+Mincho:wght@700;800&family=Zen+Kaku+Gothic+New:wght@400;500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;800;900&family=Share+Tech+Mono&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body class="cyber-scanline">
@@ -54,17 +48,16 @@
                 <span class="bracket">[</span> PROTOCOL: NEURAL_LINK <span class="bracket">]</span>
             </div>
 
-            <!-- Create と New World を2行に分割 -->
             <h1 class="hero-title">
-                <span class="scramble-line" data-value="Create">Create</span>
-                <span class="scramble-line" data-value="New World">New World</span>
+                <span class="scramble-line" data-value="CREATE">CREATE</span>
+                <span class="scramble-line" data-value="NEW WORLD">NEW WORLD</span>
             </h1>
 
-            <!-- 1行に並ぶ日本語 -->
-            <p class="sub-lead">
-                <span class="sub">自ら創り育てる</span>
-                <span class="main">新しい世界</span>
-            </p>
+            <!-- 大きな文字をやめ、繊細なHUDキャプションとして配置 -->
+            <div class="sub-lead-bar">
+                <span class="lead-jp-badge">MANIFESTO</span>
+                <p class="sub-lead">自ら創り育てる、新しい世界と知覚体験。</p>
+            </div>
 
             <div class="hero-meta">
                 <span>LATENCY: 12ms</span>
@@ -83,8 +76,8 @@
         <!-- 自己紹介 -->
         <section id="about" class="hud-section fade-in-section">
             <div class="sec-header">
-                <span class="sec-id">SEC_01 // IDENTIFICATION</span>
-                <h2>自己紹介</h2>
+                <span class="sec-id">SEC_01 // IDENTITY</span>
+                <h2>ABOUT ME <span class="h2-sub">[ 個体識別情報 ]</span></h2>
             </div>
             
             <div class="hud-panel">
@@ -116,19 +109,18 @@
         <section id="works" class="hud-section fade-in-section">
             <div class="sec-header">
                 <span class="sec-id">SEC_02 // ARTIFACTS</span>
-                <h2>作品・活動</h2>
+                <h2>WORKS ARCHIVE <span class="h2-sub">[ 制作実績・開発ログ ]</span></h2>
             </div>
 
             <div class="works-grid">
                 <!-- Card 1 -->
                 <article class="cyber-card">
-                    <div class="card-edge"></div>
                     <div class="work-preview neon-1">
-                        <span class="data-tag">DATA_SET: 001</span>
+                        <span class="data-tag">PROJECT_01</span>
                     </div>
                     <div class="work-body">
                         <span class="work-cat">NEURAL APPLICATION</span>
-                        <h3 class="work-title">作品その1: NEON DRIVE</h3>
+                        <h3 class="work-title">NEON DRIVE</h3>
                         <p>仮想空間における直感的操作を実現したサイバーUIシステム。</p>
                         <a href="#" class="hud-btn">EXECUTE PROJECT <span>→</span></a>
                     </div>
@@ -136,13 +128,12 @@
 
                 <!-- Card 2 -->
                 <article class="cyber-card">
-                    <div class="card-edge"></div>
                     <div class="work-preview neon-2">
-                        <span class="data-tag">DATA_SET: 002</span>
+                        <span class="data-tag">PROJECT_02</span>
                     </div>
                     <div class="work-body">
                         <span class="work-cat">IMMERSIVE VR</span>
-                        <h3 class="work-title">作品その2: QUANTUM VOID</h3>
+                        <h3 class="work-title">QUANTUM VOID</h3>
                         <p>没入型VRゴーグル向けの高精度リアルタイム空間レンダリング。</p>
                         <a href="#" class="hud-btn">EXECUTE PROJECT <span>→</span></a>
                     </div>
@@ -150,13 +141,12 @@
 
                 <!-- Card 3 -->
                 <article class="cyber-card">
-                    <div class="card-edge"></div>
                     <div class="work-preview neon-3">
-                        <span class="data-tag">DATA_SET: 003</span>
+                        <span class="data-tag">PROJECT_03</span>
                     </div>
                     <div class="work-body">
                         <span class="work-cat">SYSTEM DESIGN</span>
-                        <h3 class="work-title">作品その3: SYNAPSE OS</h3>
+                        <h3 class="work-title">SYNAPSE OS</h3>
                         <p>次世代デバイスのためのグリッチ耐性HUDインターフェース。</p>
                         <a href="#" class="hud-btn">EXECUTE PROJECT <span>→</span></a>
                     </div>
@@ -168,7 +158,7 @@
         <section id="contact" class="hud-section fade-in-section">
             <div class="sec-header">
                 <span class="sec-id">SEC_03 // TRANSMISSION</span>
-                <h2>通信プロトコル</h2>
+                <h2>CONNECT PROTOCOL <span class="h2-sub">[ 通信インターフェース ]</span></h2>
             </div>
 
             <div class="hud-panel transmission-panel">
@@ -177,7 +167,7 @@
                 <div class="panel-corner bl"></div>
                 <div class="panel-corner br"></div>
 
-                <p class="trans-desc">通信回線を開放中。周波数を合わせてコンタクトしてください。</p>
+                <p class="trans-desc">周波数を同調させて通信を開始してください。</p>
 
                 <div class="contact-terminal">
                     <a href="mailto:example@example.com" class="terminal-item">
